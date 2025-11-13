@@ -3,8 +3,7 @@ import Spline from '@splinetool/react-spline'
 
 function App() {
   const handlePlayDemo = () => {
-    // Temporary: route to the built-in test page as a placeholder for a future demo
-    window.location.href = '/test'
+    window.location.href = '/play'
   }
 
   return (
