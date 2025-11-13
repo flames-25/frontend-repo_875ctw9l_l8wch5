@@ -3,46 +3,7 @@
 > vite
 
 
-  VITE v5.4.20  ready in 257 ms
+  VITE v5.4.20  ready in 238 ms
 
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.20.22.150:3000/
-10:17:41 AM [vite] Pre-transform error: Failed to resolve import "@react-three/fiber" from "src/components/Play.jsx". Does the file exist?
-10:17:45 AM [vite] Internal server error: Failed to resolve import "@react-three/fiber" from "src/components/Play.jsx". Does the file exist?
-  Plugin: vite:import-analysis
-  File: /home/workspace/src/components/Play.jsx:2:33
-  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
-  2  |  import React, { useMemo, useRef, useState, useEffect } from "react";
-  3  |  import { Canvas, useFrame } from "@react-three/fiber";
-     |                                    ^
-  4  |  import { Environment, Html, Sky, Stars } from "@react-three/drei";
-  5  |  function useKeys() {
-      at TransformPluginContext._formatError (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49258:41)
-      at TransformPluginContext.error (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49253:16)
-      at normalizeUrl (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64306:23)
-      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-      at async file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64438:39
-      at async Promise.all (index 2)
-      at async TransformPluginContext.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64365:7)
-      at async PluginContainer.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49099:18)
-      at async loadAndTransform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:51977:27)
-      at async viteTransformMiddleware (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:62105:24)
-10:18:05 AM [vite] Internal server error: Failed to resolve import "@react-three/fiber" from "src/components/Play.jsx". Does the file exist?
-  Plugin: vite:import-analysis
-  File: /home/workspace/src/components/Play.jsx:2:33
-  1  |  import { jsxDEV } from "react/jsx-dev-runtime";
-  2  |  import React, { useMemo, useRef, useState, useEffect } from "react";
-  3  |  import { Canvas, useFrame } from "@react-three/fiber";
-     |                                    ^
-  4  |  import { Environment, Html, Sky, Stars } from "@react-three/drei";
-  5  |  function useKeys() {
-      at TransformPluginContext._formatError (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49258:41)
-      at TransformPluginContext.error (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49253:16)
-      at normalizeUrl (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64306:23)
-      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-      at async file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64438:39
-      at async Promise.all (index 2)
-      at async TransformPluginContext.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64365:7)
-      at async PluginContainer.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49099:18)
-      at async loadAndTransform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:51977:27)
-      at async viteTransformMiddleware (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:62105:24)
